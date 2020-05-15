@@ -18,8 +18,8 @@ public class SendMail {
 	private Session session;
 	String Subject = "";
 	Properties p = new Properties();
-	final String fromMail = "roy713470@gmail.com";
-	final String password = "roysharma123";
+	final String fromMail = "EMAIL_ID";
+	final String password = "PASSWORD";
 
 	public SendMail() {
 		p.put("mail.smtp.host", "smtp.gmail.com");
